@@ -2,7 +2,7 @@
 
 Frontend for the Student Database application
 
--  Running on ...
+-  Available at [Student Database](https://c276-studentdatabase.onrender.com/)
 
 ## Student Display
 
