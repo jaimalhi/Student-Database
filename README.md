@@ -4,8 +4,6 @@ Frontend for the Student Database application
 
 ## Student Display
 
----
-
 Each student is displayed on the main screen within their own respective _cards_
 and are displayed through triangles that follow the following design principle:
 
@@ -14,8 +12,6 @@ and are displayed through triangles that follow the following design principle:
 -  Right corner represents student _weight_
 
 ## Site Workflow
-
----
 
 The site has a main interaction bar at the top with the following options:
 
@@ -41,13 +37,9 @@ In the case of an input error, the user gets shows this:
 
 ## Info
 
----
-
 -  When running localhost, utilize http://localhost:8080/
 
 ## Tools Utilized
-
----
 
 -  Used [svelte](https://svelte.dev/) to create a reactive webpage
 -  Utilized Java Spring in the backend to create endpoints and interact with database
