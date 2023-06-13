@@ -80,11 +80,13 @@
       let gpaValue = parseFloat(gpa);
       let weightValue = parseInt(weight);
       let heightValue = parseInt(height);
+      let ageValue = parseInt(age);
       // Format the input to two decimal places when input not in focus
       if (!isNaN(gpaValue)) {
          gpa = gpaValue.toFixed(2);
          weight = weightValue.toFixed(0);
          height = heightValue.toFixed(0);
+         age = ageValue.toFixed(0);
       }
    }
 
@@ -118,6 +120,7 @@
                placeholder="age"
                bind:value={age}
                on:input={ageValidate}
+               on:blur={validateOnBlur}
             />
          </div>
          <div class="input-group mb-3">
