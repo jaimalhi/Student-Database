@@ -2,6 +2,8 @@
 
 Frontend for the Student Database application
 
+-  Running on ...
+
 ## Student Display
 
 Each student is displayed on the main screen within their own respective _cards_
@@ -37,7 +39,9 @@ In the case of an input error, the user gets shows this:
 
 ## Info
 
--  When running localhost, utilize http://localhost:8080/
+-  When running localhost, utilize port 8080 -> http://localhost:8080/
+-  `backend` folder consists of spring backend, this is the deployed product
+-  `frontend` folder consists of the raw svelte frontend
 
 ## Tools Utilized
 
