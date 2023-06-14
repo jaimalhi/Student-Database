@@ -62,7 +62,7 @@
          });
    }
 
-   //TODO: Add one student
+   // Add one student
    function addStudentPrompt() {
       addOne = true;
       deleteOne = false;
@@ -70,7 +70,7 @@
       updateOne = false;
       showError = false;
    }
-   //TODO: create add student endpoint request
+   // create add student endpoint request
    async function addStudentRequest() {
       console.log(newStudent); //new student details
       // "http://localhost:8080/students/add"
@@ -256,26 +256,36 @@
       <div class="input-group col-sm">
          <button
             on:click={updateStudentByUid}
-            on:input={uidValidation}
             type="button"
             class="btn btn-primary"
             disabled={!updateInput}
          >
             Update
          </button>
-         <input type="number" class="form-control" placeholder="uid" bind:value={updateInput} />
+         <input
+            type="number"
+            class="form-control"
+            placeholder="uid"
+            bind:value={updateInput}
+            on:input={uidValidation}
+         />
       </div>
       <div class="input-group col-sm">
          <button
             on:click={deleteStudentByUid}
-            on:input={uidValidation}
             type="button"
             class="btn btn-primary"
             disabled={!deleteInput}
          >
             Delete
          </button>
-         <input type="number" class="form-control" placeholder="uid" bind:value={deleteInput} />
+         <input
+            type="number"
+            class="form-control"
+            placeholder="uid"
+            bind:value={deleteInput}
+            on:input={uidValidation}
+         />
       </div>
    </form>
    <!-- Displaying All Students -->
