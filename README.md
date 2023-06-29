@@ -2,8 +2,6 @@
 
 Frontend for the Student Database application
 
--  Available at [Student Database](https://c276-studentdatabase.onrender.com/)
-
 ## Student Display
 
 Each student is displayed on the main screen within their own respective _cards_
